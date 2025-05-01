@@ -27,6 +27,6 @@ getGmailAPIAuthToken() {
 }
 
 #simply pass your refresh token, client ID, and client secret that we obtained in the setting-up-authorization.sh script
-token=$( getGmailAPIAuthToken "INSERT REFRESH TOKEN HERE" "INSERT CLIET ID HERE" "INSERT CLIENT SECRET HERE" )
+token=$( getGmailAPIAuthToken "INSERT REFRESH TOKEN HERE" "INSERT CLIENT ID HERE" "INSERT CLIENT SECRET HERE" )
 
 echo $token
