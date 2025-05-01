@@ -13,7 +13,7 @@ Of course, storing credentials is plain-text is always a bad idea, even on a har
 After you've obtained your client ID, client secret, and refresh tokens, you can send a simple HTML email using the [send-html-email.sh](https://github.com/garrettthorn/Zsh-Gmail-Api/blob/main/send-html-email.sh) file in this repo.  This script will save your HTML content to a file at /private/tmp/message.html (by default), and remove the file once it's sent.
 
 ## Sending HTML Emails with Attachments
-If you'd like to send HTML emails with attachments, you can do that using the MIME format.  Check out the [sending-html-email-w-attachments.sh](https://github.com/garrettthorn/Zsh-Gmail-Api/blob/main/sending-html-email-w-attachments.sh) file in this repo for more information on doing this.  It's very similar to the standard HTML method, but we just have to create an EML file.
+If you'd like to send HTML emails with attachments, you can do that using the MIME format.  Check out the [send-html-email-w-attachments.sh](https://github.com/garrettthorn/Zsh-Gmail-Api/blob/main/send-html-email-w-attachments.sh) file in this repo for more information on doing this.  It's very similar to the standard HTML method, but we just have to create an EML file.
 
 ## Notes
 
