@@ -7,7 +7,7 @@ To start, you'll need to set up proper authorization with the Google Cloud Conso
 
 Once you obtain a refresh token, you'll be able to hardcode these credentials into your script so the script will be able to obtain a new access token each time the script executes.
 
-Of course, storing credentials is plain-text is always a bad idea, even on a hardened machine.  So do this at your own risk.
+Of course, storing credentials in plain-text is always a bad idea, even on a hardened machine.  So do this at your own risk.
 
 ## Sending HTML Emails
 After you've obtained your client ID, client secret, and refresh tokens, you can send a simple HTML email using the [send-html-email.sh](https://github.com/garrettthorn/Zsh-Gmail-Api/blob/main/send-html-email.sh) file in this repo.  This script will save your HTML content to a file at /private/tmp/message.html (by default), and remove the file once it's sent.
