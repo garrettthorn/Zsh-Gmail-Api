@@ -4,14 +4,19 @@
 
 #Navigate to https://console.cloud.google.com/
 #Create a new project
-#Enable the Gmail API
-#Go to credentials > create credentials > OAuth Client ID
-#configure the consent screen
-    #Complete branding information
-        #enter an app name
-        #select external
-#Click Clients and Create Client, select Desktop app
-#Copy the client ID and client secret that are generated
+#Go to Navigation Menu on top left > APIs & Services > Library
+#Search for Google Sheets API and click Enable
+#You'll be taken to the sheets page, click Credentials > create credentials > OAuth Client ID
+#Click Configure Consent Screen
+    #Click Get Started
+    #Enter app name & user support email
+    #Choose internal or external - this just depends if you'd like this oAuth app available to other users
+    #Enter contact email
+    #Agree to user data policy
+    #Click Create
+    #Click Create oAuth client
+    #For application type, select Desktop App
+    #Copy the client ID and client secret that are generated
 
 clientId="INSERT YOUR CLIENT ID HERE"
 clientSecret="INSERT YOUR CLIENT SECRET HERE"
